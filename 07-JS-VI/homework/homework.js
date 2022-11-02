@@ -5,7 +5,7 @@ function mayuscula(nombre) {
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
   let nombrePrimeraLetraMayuscula = nombre[0].toUpperCase()
-  let restoDelNombre = nombre.slice(1)
+  let restoDelNombre = nombre.slice(1);
   return nombrePrimeraLetraMayuscula+restoDelNombre
 }
 
